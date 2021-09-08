@@ -121,6 +121,6 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias:
 - _Commit_ suas mudanças: `git commit -m 'feat: My new feature'`
 - Faça um _push_ da sua branch: `git push origin my-feature`
 
-## :mortar_board: Omnistack Week
+## :memo: License
 
-
+Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
