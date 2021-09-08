@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import { useNavigation } from "@react-navigation/native";
 import {
   View,
   KeyboardAvoidingView,
@@ -14,9 +15,10 @@ import api from "../services/api";
 
 import logo from "../assets/logo.png";
 
-export default function Login({ navigation }) {
+export default function Login() {
   const [email, setEmail] = useState("");
   const [techs, setTechs] = useState("");
+  const navigation = useNavigation();
 
   useEffect(() => {
     AsyncStorage.getItem("user").then(user => {

@@ -34,8 +34,8 @@
 ## <img alt="aircnc" src="assets/logo@3x.png" height="35">
 
 - [Sobre](#sobre)
-- [Tecnologias utilizadas](#tecnologias-utilizadas)
 - [A aplicação](#aplicacao)
+- [Tecnologias utilizadas](#tecnologias-utilizadas)
 - [Faça um clone e use](#como-usar)
 - [Como contribuir](#como-contribuir)
 
@@ -47,6 +47,28 @@ O <strong>Aircnc</strong> é uma aplicação Web e Mobile para os dev de plantã
 
 Essa aplicação foi construída na semana <strong>Omnistack</strong>  disponibilizada pela [Rocketseat](https://rocketseat.com.br/). Essa aplicação vem com a ideia de criar um ambiente onde Empresas possam oferecer locais para programadores autonomos trabalharem e de quebra conhecerem o ambito empresarial.
 
+
+<a id="aplicacao"></a>
+
+## :sparkles:  A Aplicação
+
+#### :computer:  Aplicação Web:
+
+<h1 align="center">
+    <img alt="Web" src="./github/webhome.png" width="300px">
+    <img alt="Web" src="./github/webaddspot.png" width="300px">
+    <img alt="Web" src="./github/spotsweb.png" width="300px">
+</h1>
+
+<br>
+
+#### :iphone:  Aplicação Mobile:
+
+<h1 align="center">
+    <img alt="Mobile" src="./github/mobilelogin.png" height="400px">
+    <img alt="Mobile" src="./github/mobilelist.png" height="400px">
+</h1>
+
 <a id="tecnologias-utilizadas"></a>
 
 ## :diamonds:  Tecnologias utilizadas
@@ -56,24 +78,6 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias:
 - [Node.js](https://nodejs.org/en/)
 - [React.js](https://reactjs.org/)
 - [React Native com Expo](https://expo.io/)
-
-<a id="aplicacao"></a>
-
-## :sparkles:  A Aplicação
-
-#### :computer:  Aplicação Web:
-
-<h1 align="center">
-    <img alt="Web" src="assets/web.gif" width="900px">
-</h1>
-
-<br>
-
-#### :iphone:  Aplicação Mobile:
-
-<h1 align="center">
-    <img alt="Mobile" src="assets/mobile.gif" width="400px">
-</h1>
 
 
 <a id="como-usar"></a>
@@ -118,7 +122,5 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias:
 - Faça um _push_ da sua branch: `git push origin my-feature`
 
 ## :mortar_board: Omnistack Week
-
-> As aulas da semana **Omnistack** foram ministradas pelo **[Diego Fernandes](https://github.com/diego3g)**.
 
 

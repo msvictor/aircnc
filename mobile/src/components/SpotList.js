@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { withNavigation } from "react-navigation";
+import { useNavigation } from "@react-navigation/native";
 import {
   View,
   Text,
@@ -11,8 +11,9 @@ import {
 
 import api from "../services/api";
 
-function SpotList({ tech, navigation }) {
+function SpotList({ tech }) {
   const [spots, setSpots] = useState([]);
+  const navigation = useNavigation();
 
   useEffect(() => {
     async function loadSpots() {
@@ -128,4 +129,4 @@ const styles = StyleSheet.create({
   }
 });
 
-export default withNavigation(SpotList);
+export default SpotList

@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { useNavigation } from "@react-navigation/native";
 import {
   SafeAreaView,
   Text,
@@ -11,8 +12,10 @@ import {
 
 import api from "../services/api";
 
-export default function Book({ navigation }) {
+export default function Book() {
   const [date, setDate] = useState("");
+  const navigation = useNavigation();
+
   const id = navigation.getParam("id");
 
   async function handleSubmit() {
