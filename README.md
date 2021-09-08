@@ -43,7 +43,7 @@
 
 ## :interrobang:  Sobre
 
-O <strong>Aircnc</strong> é uma aplicação Web e Mobile para os dev de plantão encontrarem seus hotspos!
+O <strong>Aircnc</strong> é uma aplicação Web e Mobile para os dev de plantão encontrarem seus hotspots!
 
 Essa aplicação foi construída na semana <strong>Omnistack</strong>  disponibilizada pela [Rocketseat](https://rocketseat.com.br/). Essa aplicação vem com a ideia de criar um ambiente onde Empresas possam oferecer locais para programadores autonomos trabalharem e de quebra conhecerem o ambito empresarial.
 
